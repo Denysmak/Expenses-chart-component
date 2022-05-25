@@ -1,0 +1,49 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+margin: 0%;
+padding: 0%;
+height: 100vh;
+background-color: hsl(27, 66%, 92%);
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'DM Sans', sans-serif;
+}
+main{
+display: flex;
+justify-content: space-between;
+flex-direction:column;
+height: 650px;
+width: 550px;
+}
+.balance{
+height: 18%;
+background-color: hsl(10, 79%, 65%);
+border-radius: 15px;
+padding: 0% 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+}
+.spending{
+background-color: hsl(33, 100%, 98%);
+height: 80%;
+border-radius: 15px;
+}
+.logo{
+height: 50px;
+}
+.balance-money{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 60%;
+
+}
+.balance-money h1{
+font-size: 1.8rem;
+}
