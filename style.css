@@ -1,6 +1,7 @@
 *{
 margin: 0%;
 padding: 0%;
+box-sizing: border-box;
 }
 body{
 margin: 0%;
@@ -29,11 +30,6 @@ justify-content: space-between;
 align-items: center;
 color: white;
 }
-.spending{
-background-color: hsl(33, 100%, 98%);
-height: 80%;
-border-radius: 15px;
-}
 .logo{
 height: 50px;
 }
@@ -46,4 +42,66 @@ height: 60%;
 }
 .balance-money h1{
 font-size: 1.8rem;
+}
+.spending {
+background-color: hsl(33, 100%, 98%);
+height: 80%;
+border-radius: 15px;
+padding: 25px 35px;
+}
+.chart{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+padding-bottom: 8%;
+border-bottom: 1px solid rgb(225, 225, 225);
+height: 65%;
+}
+.days{
+height: 78%;
+display: flex;
+justify-content: space-between;
+color: rgb(133, 133, 133);
+}
+.day{
+
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+height: 100%;
+width: 11%;
+}
+.bar {
+border-radius: 6px;
+background-color: hsl(10, 79%, 65%);
+}
+#bar1{
+height: 27%;
+width: 100%;
+}
+#bar2 {
+height: 54%;
+width: 100%;
+}
+#bar3 {
+height: 80%;
+width: 100%;
+background-color: hsl(186, 34%, 60%);
+}
+#bar4 {
+height: 48%;
+width: 100%;
+}
+#bar5 {
+height: 38%;
+width: 100%;
+}
+#bar6 {
+height: 65%;
+width: 100%;
+}
+#bar7 {
+height: 40%;
+width: 100%;
 }
