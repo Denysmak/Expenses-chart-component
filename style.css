@@ -38,7 +38,6 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 height: 60%;
-
 }
 .balance-money h1{
 font-size: 1.8rem;
@@ -131,6 +130,106 @@ height: 10%;
 .total-percentage :first-child{
 color: black;
 font-weight: 700;
+
+}
+@media (max-width: 600px){
+
+main {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 70%;
+        width: 92%;
+    }
+
+.balance {
+    height: 18%;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    padding: 0% 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.spending {
+    background-color: hsl(33, 100%, 98%);
+    height: 80%;
+    border-radius: 15px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+        height: 40px;
+    }
+
+ .balance-money h1 {
+     font-size: 1.6rem;
+ }
+.balance-money {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+.spending h1{
+
+font-size: 1.5rem;
+
+}
+.total-money{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 50%;
+
+}
+.chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 8%;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    height: 75%;
+}
+#bar1 {
+    height: 30%;
+    width: 100%;
+}
+
+#bar2 {
+    height: 57%;
+    width: 100%;
+}
+
+#bar3 {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(186, 34%, 60%);
+}
+
+#bar4 {
+    height: 52%;
+    width: 100%;
+}
+
+#bar5 {
+    height: 38%;
+    width: 100%;
+}
+
+#bar6 {
+    height: 70%;
+    width: 100%;
+}
+
+#bar7 {
+    height: 45%;
+    width: 100%;
+}
 
 }
 
